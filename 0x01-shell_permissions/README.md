@@ -1,0 +1,15 @@
+file 0 
+File 0: su betty (Switches user to betty)
+File 1: whoami (Prints effective username)
+File 2: groups (Prints groups current user is in)
+File 3: sudo chown betty hello (Changes owner of hello to betty)
+File 4: touch hello (Creates an empty file named hello)
+File 5: chmod u+x hello (Adds execute permission for owner on hello)
+File 6: chmod u+x,g+x,o+r hello (Adds specific permissions to hello)
+File 7: chmod a+x hello (Adds execute permission to all on hello)
+File 8: chmod o+rwx hello (Sets permissions on hello as specified)
+File 9: chmod 751 hello (Sets mode of hello as specified)
+File 10: chmod --reference=olleh hello (Sets mode of hello to match olleh)
+File 11: Loops through directories and applies chmod to subdirectories for owner, group, and others
+File 12: mkdir -m 751 my_dir (Creates my_dir with specified permissions)
+File 13: sudo chgrp school hello (Changes group owner of hello to school)
