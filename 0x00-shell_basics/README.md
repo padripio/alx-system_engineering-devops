@@ -51,7 +51,7 @@ A README.md file, at the root of the folder of this project, describing what eac
 
     Prints the type of the file named iamafile located in the /tmp directory.
 
-13-symbolic_link
+13-symbolic_links
 
     Creates a symbolic link to /bin/ls named __ls__ in the current working directory.
 14-copying
