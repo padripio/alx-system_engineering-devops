@@ -1,0 +1,6 @@
+#!/bin/bash
+git add ..
+cp *.html ..
+git commit
+
+
